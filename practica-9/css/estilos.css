@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #048ABF;
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.navegador{margin-top: 20px;
+margin-left: 30px;
+}
+.navegador h1 {
+    margin-bottom: 15px;
+    color: #F2B84B;
+}
+.navegador ul {
+    list-style: none;
+    display: flex;
+}
+.navegador ul li{
+    margin-right: 18px;
+}
+.navegador ul li a {
+    text-decoration: none;
+    color: #F2B84B;
+    font-size: 20px;
+}
+h2{
+    margin-top: 20px;
+    margin-left: 35px;
+    color: #F2B84B;
+}
+.canciones{
+    margin-left: 35px;
+    margin-top: 25px;
+    
+}
+.canciones ul { 
+    list-style: none;
+    display: flex;
+}
+p {
+    margin: 35px;
+    margin-bottom: 5px;
+
+}
+img { 
+    margin-left: 35px;
+}
