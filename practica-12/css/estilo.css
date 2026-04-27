@@ -1,0 +1,135 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #78cdea;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background-color: #374017;
+  padding: 15px 30px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav h1 {
+  font-family: "Titan One", sans-serif;
+  color: #ADBF21;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #ADBF21;
+}
+
+/* HERO */
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* SECCIONES */
+section {
+  padding: 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: "Titan One", sans-serif;
+}
+
+/* SINOPSIS */
+.sinopsis {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+/* PERSONAJES */
+.grid-personajes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.grid-personajes article {
+  background-color: #F4E1C0;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.grid-personajes article:hover {
+  transform: scale(1.05);
+}
+
+.grid-personajes img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* SECUELAS */
+.grid-secuelas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.grid-secuelas article {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+.grid-secuelas article img {
+    width: 300px;
+}
+/* RESEÑAS */
+.comentarios ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comentarios article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #374017;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}

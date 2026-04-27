@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fredoka", sans-serif;
+    background: linear-gradient(to bottom, #5ec5e8, #bdefff);
+    color: #2d2d2d;
+}
+
+/* HEADER */
+.navegador {
+    background: #4bb4d9;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegador h1 {
+    color: white;
+    font-size: 28px;
+}
+
+.navegador ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navegador ul li a {
+    text-decoration: none;
+    color: white;
+    background: #6fd3f5;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.navegador ul li a:hover {
+    background: white;
+    color: #4bb4d9;
+}
+
+/* CONTENIDO */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+/* TITULO */
+h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    text-shadow: 2px 2px 0 #4bb4d9;
+}
+
+/* IMAGEN PRINCIPAL */
+.hero-img {
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+}
+
+/* CARRUSEL */
+.canciones {
+    margin-top: 40px;
+}
+
+/* scroll horizontal */
+.canciones ul {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+    scroll-snap-type: x mandatory;
+}
+
+/* sacamos scrollbar feo */
+.canciones ul::-webkit-scrollbar {
+    height: 8px;
+}
+
+.canciones ul::-webkit-scrollbar-thumb {
+    background: #4bb4d9;
+    border-radius: 10px;
+}
+
+/* TARJETAS */
+.canciones li {
+    min-width: 180px;
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    scroll-snap-align: center;
+    box-shadow: 0 5px 0 #8eddf5;
+    transition: 0.3s;
+}
+
+.canciones li:hover {
+    transform: scale(1.05);
+}
+
+/* IMAGEN */
+.canciones img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* TEXTO */
+.canciones p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/*Use chatgpt para hacer este css*/
